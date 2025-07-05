@@ -107,7 +107,7 @@ pop() {
         -T "$FLOAX_TITLE" \
         -w "$FLOAX_WIDTH" \
         -h "$FLOAX_HEIGHT" \
-        -b single \
+        -b "$FLOAX_BORDER_STYLE" \
         -E \
         "tmux attach-session -t \"$FLOAX_SESSION_NAME\"" 
 }
